@@ -17,10 +17,11 @@ If POKE! is found a mp3-file is played. POKE also has a cool down and can
 only control the arduino every 10 seconds.
 
 The arduino controls a relay and rgb led. The script and sketch should be easy enough to change
-to suit other "needs".
+to suit other needs.
 
 An oauth token is needed for this script and can be generated at https://twitchapps.com/tmi/ .  
 Set the "channel" variable to the channel you want chat messages from, and "username" to your own
-username.
+username.  
+Do NOT share your oAuth token with anyone.
 
 If pygame.mixer.music.load crashes the script and the problem is the file libmpg123-0.dll, find the file and copy it to "C:\Windows\system32".
