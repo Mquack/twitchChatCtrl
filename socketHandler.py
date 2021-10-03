@@ -3,9 +3,9 @@ import socket
 
 class SocketHandler:
     def __init__(self):
-        self.username = ""                          # Your Username.
-        self.channel = ""                           # The channel you want chat msgs from starting with a hash(#).
-        self.token = ""                             # DO NOT SHARE YOUR TOKEN WITH ANYONE!
+        self.username = ""                          # Your Username, is set by running config_socket
+        self.channel = ""                           # Channel you want chat msgs from, is set by running config_socket
+        self.token = ""                             # Your oauth token, is set by running config_socket
 
         self.configured = False
 
